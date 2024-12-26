@@ -1,0 +1,17 @@
+/*
+เปิด Tinker:
+php artisan tinker
+การสร้างข้อมูล
+<?php
+use App\Models\Production;
+
+Production::create([
+    'name' => 'Book',
+    'description' => 'High-performance',
+    'price' => 1500,
+    'image' => '/images/55.jpg',
+]);
+ไฟล์ฐานข้อมูล SQLite จะถูกเก็บไว้ในโฟลเดอร์ database
+และมีชื่อไฟล์เป็น database.sqlite
+*/
+// //php artisan make:model Production

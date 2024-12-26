@@ -1,0 +1,4 @@
+ทำสังนำการการสร้าง Controllers
+php artisan make:controller //N/productionController
+//php artisan make:controller ProductionController
+//php artisan make:controller DetailsController
